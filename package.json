@@ -1,6 +1,6 @@
 {
   "name": "page-position",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieve the position of an element relative to the page.",
   "author": "Tyler Peterson <tylerjpeterson@gmail.com>",
   "main": "index.js",
