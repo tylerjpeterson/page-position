@@ -25,8 +25,8 @@ test('should define offsets accurately', assert => {
 });
 
 test('should return results independent of scroll position', assert => {
-	const coords = pagePosition(document.getElementById('tester'));
 	window.scrollTo(200, 100);
+	const coords = pagePosition(document.getElementById('tester'));
 
 	assert.equal(coords.top, 1200, 'maintains accurate top offset after scrolling');
 	assert.equal(coords.right, 1500, 'maintains accurate right offset after scrolling');
