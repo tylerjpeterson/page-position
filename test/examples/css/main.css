@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica';
+	font-weight: 100;
+}
+
+body {
+	text-align: center;
+	height: 3000px;
+	color: #333;
+}
+
+h1 {
+	margin: 1em auto 0;
+	font-size: 2em;
+}
+
+pre {
+	text-align: left;
+	display: inline-block;
+	margin: 1em auto;
+	font-size: 0.65em;
+	background-color: #ececec;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	padding: 20px;
+	width: 160px;
+	font-family: menlo, 'Courier new';
+	background-image: linear-gradient(to bottom, #ffffff, #efefef);
+}
+
+.tester {
+	position: absolute;
+	top: 1200px;
+	left: 1400px;
+	width: 100px;
+	height: 100px;
+	display: block;
+	background-color: #000;
+}
